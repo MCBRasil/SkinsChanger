@@ -1,0 +1,22 @@
+name: SkinsChanger
+main: skinschanger.bukkit.Skins
+version: 1.1
+author: Maro
+depend: [ProtocolLib]
+load: startup
+
+commands:
+  skin:
+    description: Players command.
+    aliases: [skin]
+  skina:
+    description: Admins command.
+    aliases: [skin]
+
+permissions:
+  skinschanger.use:
+    description: none
+    default: op
+  skikschanger.admin:
+    description: none
+    default: op
