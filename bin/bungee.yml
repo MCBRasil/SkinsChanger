@@ -1,9 +1,0 @@
-name: SkinsChanger
-main: skinschanger.bungee.Skins
-version: 1.1
-author: Maro
-
-commands:
-  skin:
-    description: Usage /skin <playername>  (playername has to be valid premium player).
-    aliases: [skin]
